@@ -4,182 +4,242 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="#10233f" name="theme-color"/>
-<meta content="Мектептегі информатика және жасанды интеллект: мұғалімдерге арналған Python курсы, 27–31 қазан 2026, 14:00–17:30. 5–10-сыныптарға арналған Python тақырыптарының мазмұны." name="description"/>
+<meta content="Мұғалімдерге арналған Python курсы: 27–31 қазан 2026, 14:00–17:30. Бонус: HTML, CSS, JavaScript, GitHub Pages және SQL." name="description"/>
 <title>Мектептегі информатика және жасанды интеллект — Python курсы</title>
 <style>
-    :root{--ink:#14213a;--muted:#64748b;--blue:#3268ed;--navy:#10233f;--yellow:#ffda73;--bg:#f6f8fc;--line:#e5eaf2;--white:#fff;--mint:#d7f4e8;--radius:23px;--shadow:0 20px 70px rgba(25,48,94,.075)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:#fff;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}button,input,select{font:inherit}a{color:inherit;text-decoration:none}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.55}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #ffb400;outline-offset:3px}::selection{background:#ffda73;color:#13213b}.container{max-width:1192px;margin:auto;padding:0 26px}.topnote{background:#101f37;color:#fff;text-align:center;padding:8px 15px;font-size:12px;letter-spacing:.1px}.topnote span{color:var(--yellow);font-weight:800}.header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;justify-content:space-between;min-height:80px;gap:18px}.brand{display:flex;align-items:center;gap:11px;font-weight:850;line-height:1.18;letter-spacing:-.45px;flex:0 0 auto}.brand-logo{height:40px;width:40px;background:var(--blue);border-radius:12px;display:grid;place-items:center;color:#fff;font-size:21px;box-shadow:5px 5px 0 #ffdc79}.brand small{font-size:11px;color:#6e7b92;font-weight:650;display:block;letter-spacing:.1px;margin-top:5px}.navlinks{display:flex;align-items:center;gap:24px;font-size:13px;color:#52627d;font-weight:700}.navlinks a:hover{color:var(--blue)}.btn{border:0;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 22px;font-weight:800;border-radius:13px;font-size:14px;transition:transform .2s,box-shadow .2s;background:var(--blue);color:#fff;text-align:center}.btn:hover{transform:translateY(-2px);box-shadow:0 13px 28px rgba(50,104,237,.24)}.btn-dark{background:var(--navy)}.btn-light{background:#fff;color:var(--navy)}.btn-outline{background:transparent;color:var(--ink);border:1px solid #cfd8e7}.btn-sm{padding:12px 17px;font-size:12px}.hamburger{display:none;border:1px solid var(--line);background:#fff;border-radius:10px;font-size:23px;width:42px;height:42px}.hero{background:linear-gradient(120deg,#f2f7ff 0%,#fff 63%,#fff9eb 100%);padding:83px 0 92px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:48px}.eyebrow{font-weight:850;text-transform:uppercase;font-size:11px;letter-spacing:2.2px;color:var(--blue);display:flex;gap:10px;align-items:center}.eyebrow:before{content:"";width:24px;height:3px;background:currentColor;border-radius:30px}.hero h1{font-size:clamp(40px,4.65vw,69px);letter-spacing:-3.7px;line-height:1.08;margin:23px 0 19px;font-weight:900;max-width:720px}.hero h1 em{font-style:normal;color:var(--blue)}.lead{font-size:17px;color:#5d6d82;line-height:1.85;max-width:535px}.chips{display:flex;flex-wrap:wrap;gap:9px;margin:25px 0 33px}.chip{border:1px solid #d9e3f1;background:#fff;padding:8px 12px;border-radius:100px;font-size:12px;font-weight:750;color:#405371}.chip b{color:var(--blue)}.cta-row{display:flex;align-items:center;flex-wrap:wrap;gap:16px}.cta-foot{font-size:12px;color:#77859b;max-width:180px;line-height:1.5}.hero-art{position:relative;padding:25px 0 20px 16px}.editor{background:#14233f;border-radius:22px;box-shadow:0 35px 80px #172f5740;color:#eaf0fd;overflow:hidden;transform:rotate(1.4deg)}.editor-top{height:49px;border-bottom:1px solid #324159;display:flex;align-items:center;gap:7px;padding:0 21px}.dot{height:10px;width:10px;border-radius:50%;background:#ff6a67}.dot:nth-child(2){background:#ffd76e}.dot:nth-child(3){background:#62d8aa}.filename{margin-left:20px;color:#8798b3;font:12px monospace}.code{padding:37px 30px 34px;font:14px/2.03 Consolas,Monaco,"Courier New",monospace;white-space:pre-wrap;min-height:308px}.code .purple{color:#bc9aff}.code .green{color:#9de8bf}.code .orange{color:#ffd17b}.code .blue{color:#8cc8ff}.code-output{background:#0b1931;border-top:1px solid #30415e;color:#8be4b2;padding:15px 30px 21px;font:13px monospace}.float-badge{position:absolute;background:#fff;box-shadow:0 14px 40px #13284922;padding:17px 18px;border-radius:17px;transform:rotate(-5deg);font-weight:850;bottom:7px;left:-39px;display:flex;gap:13px;align-items:center;font-size:13px}.float-badge b{display:block;font-size:28px;line-height:1.15;color:var(--blue)}.float-badge .iconbox{height:45px;width:45px;border-radius:14px;background:#fff1bc;display:grid;place-items:center;font-size:22px}.yellow-star{position:absolute;right:-20px;top:0;background:var(--yellow);color:#172a46;border-radius:50%;width:86px;height:86px;display:grid;place-items:center;transform:rotate(13deg);font-weight:900;font-size:12px;text-align:center;line-height:1.25;box-shadow:0 9px 20px #172f5715}.info-ribbon{background:var(--navy);margin-top:-31px;position:relative;z-index:2;color:#fff;border-radius:20px;display:grid;grid-template-columns:repeat(4,1fr);padding:25px 30px;box-shadow:0 15px 45px #0e23412e;gap:14px}.ribbon-col{padding:4px 16px;border-right:1px solid #ffffff30}.ribbon-col:last-child{border-right:0}.ribbon-col span{color:#acbdd5;font-size:12px;display:block}.ribbon-col strong{display:block;font-size:17px;margin-top:4px;letter-spacing:-.4px}.ribbon-col strong.yellow{color:var(--yellow)}.section{padding:92px 0}.section.light{background:var(--bg)}.section-title{max-width:730px;margin-bottom:40px}.section-title h2{font-size:clamp(29px,3.1vw,44px);line-height:1.16;letter-spacing:-1.7px;margin:12px 0}.section-title p{color:var(--muted);margin:0;font-size:15px;line-height:1.85}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{border:1px solid var(--line);border-radius:20px;padding:28px;background:#fff;transition:transform .2s}.feature:hover{transform:translateY(-4px)}.feature-icon{width:50px;height:50px;display:grid;place-items:center;background:#ecf1ff;border-radius:14px;font-size:25px}.feature:nth-child(2) .feature-icon{background:#fff2c9}.feature:nth-child(3) .feature-icon{background:#def7ed}.feature h3{font-size:18px;letter-spacing:-.4px;margin:20px 0 8px}.feature p{font-size:13px;line-height:1.8;color:var(--muted);margin:0}.course-highlight{background:#eef3ff;border-radius:27px;display:grid;grid-template-columns:1.2fr .8fr;overflow:hidden;border:1px solid #dde8ff}.highlight-main{padding:42px}.highlight-main h3{font-size:30px;line-height:1.23;margin:13px 0 13px;letter-spacing:-1px}.highlight-main p{color:#62738e;max-width:520px}.checklist{list-style:none;padding:0;margin:24px 0;display:grid;gap:11px}.checklist li:before{content:"✓";color:#147755;background:#d3f6e5;width:22px;height:22px;display:inline-grid;place-items:center;border-radius:50%;font-weight:900;margin-right:10px}.highlight-side{background:#dce8ff;display:grid;place-items:center;padding:30px}.python-bubble{height:240px;width:240px;background:#fff;border-radius:48px;display:grid;place-items:center;box-shadow:18px 18px 0 #ffdd78;transform:rotate(-8deg)}.python-bubble span{font-size:100px;filter:drop-shadow(0 7px 0 #dee6fa)}.section-heading-row{display:flex;justify-content:space-between;align-items:flex-end;gap:26px}.section-heading-row .section-title{margin-bottom:25px}.program-tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:7px 0 23px}.tab{border:1px solid #dfe6f1;background:white;padding:10px 14px;border-radius:11px;color:#65748b;font-weight:800;font-size:12px}.tab[aria-pressed=true]{color:#fff;background:var(--navy);border-color:var(--navy)}.search{border:1px solid #dfe6f1;background:white;padding:10px 13px;border-radius:11px;min-width:245px;flex:1;max-width:350px}.program-list{display:grid;gap:10px}.lesson{background:#fff;border:1px solid #e5eaf2;border-radius:14px;overflow:hidden}.topic-line{display:flex;align-items:center;gap:12px;padding:15px 20px}.lesson summary{list-style:none;display:grid;grid-template-columns:58px 1fr auto;align-items:center;gap:12px;padding:16px 21px;cursor:pointer}.lesson summary::-webkit-details-marker{display:none}.lesson summary:hover{background:#fcfdff}.lesson-no{width:42px;height:42px;background:#edf2ff;color:#3268ed;border-radius:12px;display:grid;place-items:center;font-weight:850;font-size:13px}.lesson-title{font-size:14px;font-weight:800;line-height:1.4}.lesson-meta{font-size:11px;color:#8b9aaf;margin-top:4px}.lesson-chevron{color:#8998b0;font-size:18px}.lesson[open] .lesson-chevron{transform:rotate(45deg);color:var(--blue)}.lesson-body{border-top:1px solid var(--line);padding:18px 23px 21px 91px;background:#fcfdff;font-size:13px;color:#5c6e87}.lesson-body b{color:#263c60}.quarter-label{padding:18px 5px 7px;font-weight:900;color:#223b65;font-size:16px;display:flex;align-items:center;justify-content:space-between}.quarter-label small{font-size:12px;font-weight:700;color:#7587a5}.empty-state{border:1px dashed #ccd7e7;border-radius:16px;padding:30px;text-align:center;color:#697a92;background:#fff}.program-foot{margin-top:15px;padding:16px 20px;border-radius:12px;background:#fff;color:#75839a;font-size:12px;border:1px solid var(--line)}.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.timeline-card{border:1px solid #e3eafa;background:#fff;padding:25px 22px;border-radius:20px}.timeline-card .quarter-num{font-size:37px;color:#dae3fa;font-weight:950;line-height:1}.timeline-card h3{font-size:17px;letter-spacing:-.4px;margin:15px 0 6px}.timeline-card p{font-size:12px;color:#72819a;margin:0}.hours-pill{display:inline-block;background:#eef4ff;color:#285bd2;font-weight:850;font-size:11px;padding:7px 10px;border-radius:40px;margin-top:21px}.calendar-section{background:var(--navy);color:#fff;padding:90px 0}.calendar-section .eyebrow{color:var(--yellow)}.calendar-section .section-title p{color:#a9bad3}.calendar-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:stretch}.date-card{border:1px solid #ffffff26;background:#203450;border-radius:23px;padding:35px}.date-display{display:flex;align-items:center;gap:17px;margin:24px 0}.date-number{font-weight:950;font-size:clamp(55px,6vw,84px);line-height:1;color:#ffdd78;letter-spacing:-4px}.date-month{font-size:17px;font-weight:800;line-height:1.5}.date-month small{display:block;font-size:13px;color:#a9bad3;font-weight:600}.time-panel{display:flex;gap:18px;background:#172a46;border:1px solid #ffffff15;padding:18px 20px;border-radius:13px;align-items:center}.time-panel .clock{font-size:29px}.time-panel strong{font-size:22px;letter-spacing:-.5px}.time-panel span{display:block;font-size:12px;color:#aebfd6}.limit{color:#382700;background:var(--yellow);border-radius:13px;padding:13px 16px;font-weight:850;font-size:13px;margin-top:18px;display:flex;align-items:center;gap:10px}.date-explainer{background:#fff;color:var(--ink);border-radius:23px;padding:38px;display:flex;flex-direction:column;justify-content:center}.date-explainer h3{font-size:30px;letter-spacing:-1px;line-height:1.2;margin:0 0 13px}.date-explainer p{color:#64748b;font-size:14px;line-height:1.9}.facts{display:grid;gap:12px;margin:18px 0 26px}.fact{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:800}.fact span{width:31px;height:31px;display:grid;place-items:center;background:#edf3ff;border-radius:9px}.faq-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:50px}.faq-item{border-bottom:1px solid var(--line)}.faq-item summary{font-weight:800;padding:20px 3px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px}.faq-item summary::-webkit-details-marker{display:none}.faq-item summary:after{content:"+";color:var(--blue);font-size:22px;line-height:1}.faq-item[open] summary:after{content:"−"}.faq-item p{font-size:13px;color:#65758d;line-height:1.85;margin:0 0 22px}.end-cta{background:#fff1c1;padding:54px;border-radius:26px;display:flex;justify-content:space-between;align-items:center;gap:35px}.end-cta h2{font-size:clamp(26px,3.2vw,43px);line-height:1.18;letter-spacing:-1.3px;max-width:630px;margin:0 0 14px}.end-cta p{margin:0;color:#7f6a35;font-size:13px}.footer{background:#0d1c33;color:#dce6f4;padding:43px 0 25px}.footer-grid{display:flex;justify-content:space-between;gap:25px;align-items:flex-start}.footer a{color:#adc0da;font-size:12px}.footer p{font-size:12px;color:#869cba}.footer-bottom{font-size:11px;color:#7388a9;padding-top:22px;margin-top:32px;border-top:1px solid #ffffff18}.footer .brand small{color:#8ea5c4}.footer-links{display:flex;gap:18px;flex-wrap:wrap}.modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:19px;background:#0c1b33b8;backdrop-filter:blur(5px)}.modal.is-open{display:flex}.dialog{background:#fff;border-radius:24px;width:min(100%,550px);max-height:94vh;overflow:auto;box-shadow:0 25px 100px #0005;padding:34px;position:relative}.dialog h2{font-size:27px;line-height:1.22;letter-spacing:-.8px;margin:11px 30px 10px 0}.dialog p{font-size:13px;color:#72819a}.close{position:absolute;right:20px;top:20px;height:36px;width:36px;background:#eff3f9;border:0;border-radius:10px;font-size:22px;color:#50617c}.form-meta{background:#edf3ff;border-radius:10px;padding:12px;font-weight:800;color:#2b5ccb;font-size:12px;margin:19px 0}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field.full{grid-column:span 2}.field label{font-size:12px;font-weight:800;display:block;margin-bottom:5px}.field input,.field select{width:100%;border:1px solid #d8e0ee;border-radius:10px;min-height:45px;padding:10px 12px;font-size:13px;background:#fff;color:var(--ink)}.field input::placeholder{color:#9aa7ba}.consent{font-size:11px;display:flex;align-items:flex-start;gap:10px;line-height:1.6;margin:17px 0;color:#64748b}.consent input{margin-top:3px;flex:0 0 auto;accent-color:var(--blue)}.status{border-radius:10px;padding:12px;margin:13px 0 0;font-size:12px;display:none}.status.show{display:block}.status.error{color:#9b2626;background:#fff0f0}.status.info{color:#2659b3;background:#eef3ff}.status.success{color:#17623f;background:#e3f8eb}.dialog .submit{width:100%}.privacy{font-size:11px;color:#8a99ac;margin-top:12px}.hiddenframe{position:absolute;width:1px;height:1px;border:0;opacity:0;pointer-events:none}.sr-only{position:absolute;height:1px;width:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.hide{display:none!important}
-    @media(max-width:1080px){.navlinks{gap:12px}.hero-grid{gap:24px}.hero h1{font-size:51px}.yellow-star{right:0}.float-badge{left:0}.calendar-grid{gap:15px}}@media(max-width:860px){.navlinks{display:none;position:absolute;top:80px;left:0;right:0;background:#fff;padding:19px 26px;border-bottom:1px solid var(--line);box-shadow:0 10px 30px #152a4215;flex-direction:column;align-items:stretch}.navlinks.open{display:flex}.hamburger{display:block}.nav>.btn{margin-left:auto}.hero{padding:51px 0 80px}.hero-grid{grid-template-columns:1fr}.hero-art{max-width:620px;width:100%;margin:10px auto 0}.hero h1{max-width:650px}.grid3{grid-template-columns:1fr 1fr}.info-ribbon{grid-template-columns:1fr 1fr}.ribbon-col:nth-child(2){border-right:0}.ribbon-col:nth-child(-n+2){border-bottom:1px solid #ffffff30;padding-bottom:15px}.ribbon-col:nth-child(n+3){padding-top:15px}.timeline{grid-template-columns:1fr 1fr}.calendar-grid{grid-template-columns:1fr}.faq-grid{grid-template-columns:1fr;gap:0}.section{padding:70px 0}.end-cta{padding:38px}}@media(max-width:570px){.container{padding:0 17px}.topnote{font-size:10px}.nav{min-height:71px}.navlinks{top:71px}.brand{font-size:12px}.brand-logo{height:34px;width:34px;font-size:18px}.brand small{font-size:9px}.nav>.btn{display:none}.hero h1{font-size:41px;letter-spacing:-2.5px}.lead{font-size:14px}.hero-art{padding:12px 5px 30px}.code{padding:20px 14px;font-size:10px;min-height:0}.editor-top{height:40px}.code-output{padding:11px 14px;font-size:10px}.float-badge{bottom:1px;left:0;padding:11px;font-size:10px}.float-badge b{font-size:21px}.float-badge .iconbox{height:33px;width:33px}.yellow-star{height:69px;width:69px;right:1px;top:-20px;font-size:10px}.info-ribbon{padding:17px 12px}.ribbon-col{padding-left:8px;padding-right:7px}.ribbon-col strong{font-size:14px}.ribbon-col span{font-size:10px}.grid3,.timeline{grid-template-columns:1fr}.section-title h2{font-size:32px}.course-highlight{grid-template-columns:1fr}.highlight-main{padding:25px}.highlight-main h3{font-size:24px}.highlight-side{padding:20px}.python-bubble{width:170px;height:170px}.python-bubble span{font-size:80px}.program-tools{gap:7px}.tab{padding:9px 10px;font-size:11px}.search{min-width:100%;max-width:100%}.topic-line{padding:12px 10px;gap:9px}.lesson summary{grid-template-columns:38px 1fr auto;gap:9px;padding:13px 10px}.lesson-no{width:34px;height:34px}.lesson-title{font-size:12px}.lesson-body{padding:13px 15px 17px;font-size:12px}.quarter-label{font-size:13px}.date-card,.date-explainer{padding:23px}.date-number{font-size:59px}.date-explainer h3{font-size:25px}.time-panel strong{font-size:20px}.end-cta{padding:26px;display:block}.end-cta .btn{margin-top:23px;width:100%}.footer-grid{display:block}.footer-links{margin-top:22px}.dialog{padding:25px 18px}.dialog h2{font-size:23px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:span 1}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
-    /* Python курсы: файлдар тізіміне ұқсас ашылатын бумалар */
-    .folder-list{display:grid;gap:4px;margin-top:12px}
-    .course-folder{border:1px solid #e3eaf5;border-radius:12px;background:#fff;overflow:hidden}
-    .course-folder:nth-child(even){background:#f7f9fd}
-    .course-folder summary{list-style:none;display:flex;align-items:center;gap:14px;padding:14px 16px;cursor:pointer;font-size:15px;font-weight:750;line-height:1.45;transition:background .15s}
-    .course-folder summary::-webkit-details-marker{display:none}
-    .course-folder summary:hover,.course-folder[open] summary{background:#edf4ff}
-    .folder-arrow{display:inline-block;color:#65758f;font-size:20px;width:12px;flex:0 0 12px;transition:transform .15s}
-    .course-folder[open] .folder-arrow{transform:rotate(90deg)}
-    .folder-icon{width:29px;height:21px;flex:0 0 29px;position:relative;margin-top:5px;border-radius:3px 4px 4px 4px;background:linear-gradient(#3899f1,#0965cb);box-shadow:0 2px 3px #16487c25}
-    .folder-icon:before{content:"";position:absolute;top:-5px;left:1px;width:12px;height:7px;background:#258ce7;border-radius:3px 3px 0 0}
-    .folder-name{min-width:0;overflow-wrap:anywhere}
-    .folder-content{padding:14px 17px 17px 57px;border-top:1px solid #e1e9f5;color:#65758d;font-size:13px;line-height:1.7}
-    /* Тақырыптардың көрінісін сақтай отырып, оқу деңгейлерін айқын көрсету */
-    .course-level-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:24px 0 7px;padding:12px 15px;border-radius:12px;background:#edf3ff;color:#233e70;font-size:15px;font-weight:850}
-    .course-level-title:first-child{margin-top:0}
-    .course-level-title small{font-size:11px;color:#647899;font-weight:750;white-space:nowrap}
-    @media(max-width:570px){.course-folder summary{padding:13px 10px;gap:10px;font-size:13px}.folder-content{padding-left:48px}.folder-icon{width:25px;flex-basis:25px}.course-level-title{font-size:13px;padding:11px 10px}.course-level-title small{font-size:10px}}
-  
-/* Бонус курсы: негізгі дизайнның түсін, карточкаларын және торын сақтайды. */
-.bonus-banner{background:linear-gradient(120deg,#10233f,#1c4079);color:#fff;border-radius:24px;padding:38px;margin:0 0 25px;display:flex;align-items:center;justify-content:space-between;gap:20px}
-.bonus-banner h2{font-size:clamp(27px,3vw,39px);line-height:1.15;letter-spacing:-1px;margin:9px 0}
-.bonus-banner p{font-size:14px;color:#d5e4ff;margin:0;max-width:680px}
-.bonus-badge{display:inline-block;background:#ffda73;color:#10233f;border-radius:30px;padding:5px 12px;font-size:11px;font-weight:850}
-.bonus-stats{display:inline-flex;background:#ffffff1a;border:1px solid #ffffff40;border-radius:14px;padding:14px 17px;font-size:13px;font-weight:800;white-space:nowrap}
-.bonus-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.bonus-card{border:1px solid var(--line);border-radius:20px;background:#fff;padding:26px;min-width:0}
-.bonus-level{font-weight:850;letter-spacing:.9px;text-transform:uppercase;color:var(--blue);font-size:11px}
-.bonus-card h3{font-size:21px;letter-spacing:-.6px;line-height:1.25;margin:9px 0}
-.bonus-card .bonus-description{color:var(--muted);font-size:13px;margin:0 0 13px}
-.bonus-card ol{padding-left:23px;margin:12px 0 18px;color:#314463;font-size:13px;line-height:1.8}
-.bonus-card li{padding-left:2px;margin:4px 0}
-.bonus-result{background:#e6f7ed;border-radius:12px;padding:12px 14px;color:#196042;font-size:12px;line-height:1.7}
+:root{--ink:#14213a;--muted:#64748b;--blue:#3268ed;--navy:#10233f;--yellow:#ffda73;--bg:#f6f8fc;--line:#e5eaf2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:#fff;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}
+button,input,select{font:inherit}a{color:inherit;text-decoration:none}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.55}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #ffb400;outline-offset:3px}
+::selection{background:#ffda73;color:#13213b}
+.container{max-width:1120px;margin:auto;padding:0 24px}
+.topnote{background:#101f37;color:#fff;text-align:center;padding:8px 15px;font-size:12px}.topnote span{color:var(--yellow);font-weight:800}
+.header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.96);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:18px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:850;line-height:1.18;letter-spacing:-.45px}
+.brand-logo{height:40px;width:40px;background:var(--blue);border-radius:12px;display:grid;place-items:center;color:#fff;font-size:21px;box-shadow:5px 5px 0 #ffdc79;flex:0 0 auto}
+.navlinks{display:flex;align-items:center;gap:26px;font-size:13px;color:#52627d;font-weight:700}.navlinks a:hover{color:var(--blue)}
+.btn{border:0;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 24px;font-weight:800;border-radius:13px;font-size:14px;transition:transform .2s,box-shadow .2s;background:var(--blue);color:#fff;text-align:center}
+.btn:hover{transform:translateY(-2px);box-shadow:0 13px 28px rgba(50,104,237,.24)}
+.btn-dark{background:var(--navy)}.btn-yellow{background:var(--yellow);color:#10233f}.btn-outline{background:transparent;color:var(--ink);border:1px solid #cfd8e7}.btn-sm{padding:12px 17px;font-size:12px}
+.hamburger{display:none;border:1px solid var(--line);background:#fff;border-radius:10px;font-size:23px;width:42px;height:42px}
+.eyebrow{font-weight:850;text-transform:uppercase;font-size:11px;letter-spacing:2.2px;color:var(--blue);display:flex;gap:10px;align-items:center}
+.eyebrow:before{content:"";width:24px;height:3px;background:currentColor;border-radius:30px}
+/* hero */
+.hero{background:linear-gradient(135deg,#f0f6ff 0%,#fff 50%,#fff8e8 100%);padding:76px 0 86px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:48px}
+.hero h1{font-size:clamp(38px,4.6vw,64px);letter-spacing:-3px;line-height:1.1;margin:22px 0 18px;font-weight:900}.hero h1 em{font-style:normal;color:var(--blue)}
+.lead{font-size:17px;color:#5d6d82;line-height:1.8;max-width:520px;margin:0 0 30px}
+.cta-row{display:flex;align-items:center;flex-wrap:wrap;gap:14px}
+.editor{background:#14233f;border-radius:22px;box-shadow:0 35px 80px #172f5740;color:#eaf0fd;overflow:hidden;min-width:0}
+.editor-top{height:46px;border-bottom:1px solid #324159;display:flex;align-items:center;gap:7px;padding:0 20px}
+.dot{height:10px;width:10px;border-radius:50%;background:#ff6a67}.dot:nth-child(2){background:#ffd76e}.dot:nth-child(3){background:#62d8aa}
+.filename{margin-left:18px;color:#8798b3;font:12px monospace}
+.code{margin:0;padding:26px 28px;font:14px/1.85 Consolas,Monaco,"Courier New",monospace;white-space:pre;overflow-x:auto;tab-size:4}.code code{font:inherit}
+.code .purple{color:#bc9aff}.code .green{color:#9de8bf}.code .orange{color:#ffd17b}.code .blue{color:#8cc8ff}
+.code-output{background:#0b1931;border-top:1px solid #30415e;color:#8be4b2;padding:14px 28px 18px;font:13px/1.7 Consolas,Monaco,monospace;white-space:pre}
+
+.etabs{display:flex;gap:4px;margin-left:16px}
+.etab{border:0;background:transparent;color:#8798b3;font:700 12px/1 Consolas,Monaco,monospace;padding:8px 12px;border-radius:8px}
+.etab:hover{color:#fff}.etab.on{background:#ffffff1c;color:#fff}
+.pane{display:none}.pane.on{display:block}
+.pv{background:#fff;color:#14213a;padding:14px 28px 18px;min-height:112px}
+.pv small{display:block;font-size:11px;color:#8a99ac;margin-bottom:6px;font-weight:700}
+.pv h4{margin:0 0 4px;font:700 22px/1.2 Georgia,serif}.pv p{margin:0 0 6px;font-size:14px}.pv a{font-size:14px;color:#0645ad}
+.pv-css h4{color:royalblue;font:700 28px/1.2 Georgia,serif}.pv-css p{color:gray}
+/* ribbon */
+.info-ribbon{background:var(--navy);margin-top:-31px;position:relative;z-index:2;color:#fff;border-radius:20px;display:grid;grid-template-columns:repeat(3,1fr);padding:24px 30px;box-shadow:0 15px 45px #0e23412e;gap:14px}
+.ribbon-col{padding:4px 16px;border-right:1px solid #ffffff30}.ribbon-col:last-child{border-right:0}
+.ribbon-col span{color:#acbdd5;font-size:12px;display:block}.ribbon-col strong{display:block;font-size:18px;margin-top:4px}.ribbon-col strong.yellow{color:var(--yellow)}
+/* sections */
+.section{padding:88px 0}.section.light{background:var(--bg)}
+.section-title{max-width:700px;margin-bottom:36px}
+.section-title h2{font-size:clamp(28px,3.1vw,42px);line-height:1.16;letter-spacing:-1.5px;margin:12px 0}
+.section-title p{color:var(--muted);margin:0;font-size:15px;line-height:1.8}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.feature{border:1px solid var(--line);border-radius:20px;padding:28px;background:#fff;box-shadow:0 4px 20px rgba(25,48,94,.04);transition:transform .2s,box-shadow .2s}
+.feature:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(50,104,237,.12)}
+.feature-icon{width:50px;height:50px;display:grid;place-items:center;background:#ecf1ff;border-radius:14px;font-size:25px}
+.feature:nth-child(2) .feature-icon{background:#fff2c9}.feature:nth-child(3) .feature-icon{background:#def7ed}
+.feature h3{font-size:18px;letter-spacing:-.4px;margin:18px 0 8px}.feature p{font-size:14px;line-height:1.7;color:var(--muted);margin:0}
+/* program */
+.level-card{border:1px solid var(--line);border-radius:20px;padding:26px;background:#fff}
+.level-no{font-weight:900;font-size:36px;line-height:1;color:#dae3fa}
+.level-card h3{font-size:17px;letter-spacing:-.3px;margin:12px 0 4px;line-height:1.3}
+.level-card .count{font-size:12px;font-weight:800;color:var(--blue);margin-bottom:12px}
+.level-card ul{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+.level-card li{font-size:13px;color:#52627d;padding-left:18px;position:relative;line-height:1.5}
+.level-card li:before{content:"";position:absolute;left:0;top:8px;width:7px;height:7px;border-radius:50%;background:#bcd0fb}
+/* bonus */
+.nav-bonus{background:var(--yellow);color:#10233f!important;padding:6px 13px;border-radius:30px}
+.hero-bonus{display:inline-flex;align-items:center;gap:10px;margin-top:22px;background:#fff;border:2px solid var(--yellow);border-radius:40px;padding:9px 18px;font-size:13px;font-weight:800;color:#10233f;box-shadow:0 8px 24px #ffda7340}
+.hero-bonus b{background:var(--yellow);border-radius:30px;padding:2px 10px;font-size:11px;letter-spacing:1px;text-transform:uppercase}
+.bonus-section{background:linear-gradient(135deg,#0d1c33 0%,#1c4079 100%);color:#fff;padding:96px 0;position:relative;overflow:hidden}
+.bonus-section:before{content:"";position:absolute;right:-140px;top:-140px;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,#ffda7345,transparent 70%)}
+.bonus-section:after{content:"";position:absolute;left:-160px;bottom:-160px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,#3268ed55,transparent 70%)}
+.bonus-section .container{position:relative;z-index:1}
+.bonus-head{text-align:center;max-width:780px;margin:0 auto 28px}
+.bonus-badge{display:inline-flex;gap:8px;background:var(--yellow);color:#10233f;border-radius:40px;padding:8px 20px;font-size:13px;font-weight:900;letter-spacing:1.6px;text-transform:uppercase;box-shadow:0 0 0 7px #ffda7326}
+.bonus-head h2{font-size:clamp(32px,4.6vw,58px);line-height:1.08;letter-spacing:-2px;margin:24px 0 16px;font-weight:900}
+.bonus-head h2 em{font-style:normal;color:var(--yellow)}
+.bonus-head p{color:#cfe0fb;font-size:17px;line-height:1.7;margin:0}
+.bonus-path{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 10px;margin:0 0 38px}
+.bonus-path span{background:#ffffff14;border:1px solid #ffffff30;border-radius:40px;padding:8px 16px;font-size:13px;font-weight:800}
+.bonus-path i{font-style:normal;color:var(--yellow);align-self:center}
+.bonus-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}
+.bonus-card{background:#fff;color:var(--ink);border-radius:22px;padding:28px;box-shadow:0 20px 50px #07163040;min-width:0}
+.bonus-top{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+.bonus-icon{width:56px;height:56px;border-radius:16px;background:#ecf1ff;display:grid;place-items:center;font-size:28px;flex:0 0 auto}
+.bonus-card:nth-child(2) .bonus-icon{background:#fff2c9}.bonus-card:nth-child(3) .bonus-icon{background:#def7ed}.bonus-card:nth-child(4) .bonus-icon{background:#ffe4e4}
+.bonus-no{font-size:11px;font-weight:850;letter-spacing:.9px;text-transform:uppercase;color:var(--blue)}
+.bonus-card h3{font-size:21px;line-height:1.25;letter-spacing:-.5px;margin:3px 0 0}
+.bonus-card p{color:var(--muted);font-size:14px;margin:0 0 14px}
+.bonus-result{background:#e6f7ed;color:#196042;border-radius:12px;padding:11px 14px;font-size:13px;line-height:1.6;margin-bottom:14px}
+.bonus-card details{border-top:1px solid var(--line);padding-top:12px}
+.bonus-card summary{cursor:pointer;font-size:13px;font-weight:800;color:var(--blue);list-style:none}
+.bonus-card summary::-webkit-details-marker{display:none}
+.bonus-card summary:after{content:" ↓"}.bonus-card details[open] summary:after{content:" ↑"}
+.bonus-card ol{padding-left:22px;margin:12px 0 0;color:#314463;font-size:13px;line-height:1.7}.bonus-card li{margin:3px 0}
+.bonus-cta{text-align:center;margin-top:38px}
+.bonus-cta .btn{padding:17px 32px;font-size:15px}
+/* schedule */
+.calendar-section{background:var(--navy);color:#fff;padding:76px 0}
+.calendar-box{display:flex;align-items:center;justify-content:space-between;gap:36px;flex-wrap:wrap}
+.calendar-section .eyebrow{color:var(--yellow)}
+.date-number{font-weight:950;font-size:clamp(54px,7vw,92px);line-height:1;color:#ffdd78;letter-spacing:-4px;margin:16px 0 6px}
+.date-sub{font-size:16px;font-weight:700;color:#d5e4ff}
+.date-sub span{color:#a9bad3;font-weight:600;display:block;font-size:13px;margin-top:4px}
+/* faq */
+.faq-wrap{max-width:780px;margin:auto}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-item summary{font-weight:800;padding:20px 3px;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:20px}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary:after{content:"+";color:var(--blue);font-size:22px;line-height:1}.faq-item[open] summary:after{content:"−"}
+.faq-item p{font-size:14px;color:#65758d;line-height:1.8;margin:0 0 20px}
+/* end cta */
+.end-cta{background:linear-gradient(120deg,#fff1c1,#ffe8a0);padding:50px;border-radius:26px;display:flex;justify-content:space-between;align-items:center;gap:30px}
+.end-cta h2{font-size:clamp(26px,3.2vw,40px);line-height:1.18;letter-spacing:-1.2px;max-width:620px;margin:0 0 12px}
+.end-cta p{margin:0;color:#7f6a35;font-size:14px}
+.footer{background:#0d1c33;color:#dce6f4;padding:36px 0 22px}
+.footer-grid{display:flex;justify-content:space-between;gap:25px;align-items:center}
+.footer a{color:#adc0da;font-size:12px}.footer-links{display:flex;gap:18px;flex-wrap:wrap}
+.footer-bottom{font-size:11px;color:#7388a9;padding-top:20px;margin-top:26px;border-top:1px solid #ffffff18}
+/* modal (өзгертілмеген) */
+.modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:19px;background:#0c1b33b8;backdrop-filter:blur(5px)}.modal.is-open{display:flex}
+.dialog{background:#fff;border-radius:24px;width:min(100%,550px);max-height:94vh;overflow:auto;box-shadow:0 25px 100px #0005;padding:34px;position:relative}
+.dialog h2{font-size:27px;line-height:1.22;letter-spacing:-.8px;margin:11px 30px 10px 0}.dialog p{font-size:13px;color:#72819a}
+.close{position:absolute;right:20px;top:20px;height:36px;width:36px;background:#eff3f9;border:0;border-radius:10px;font-size:22px;color:#50617c}
+.form-meta{background:#edf3ff;border-radius:10px;padding:12px;font-weight:800;color:#2b5ccb;font-size:12px;margin:19px 0}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field.full{grid-column:span 2}
+.field label{font-size:12px;font-weight:800;display:block;margin-bottom:5px}
+.field input,.field select{width:100%;border:1px solid #d8e0ee;border-radius:10px;min-height:45px;padding:10px 12px;font-size:13px;background:#fff;color:var(--ink)}
+.field input::placeholder{color:#9aa7ba}
+.consent{font-size:11px;display:flex;align-items:flex-start;gap:10px;line-height:1.6;margin:17px 0;color:#64748b}.consent input{margin-top:3px;flex:0 0 auto;accent-color:var(--blue)}
+.status{border-radius:10px;padding:12px;margin:13px 0 0;font-size:12px;display:none}.status.show{display:block}
+.status.error{color:#9b2626;background:#fff0f0}.status.info{color:#2659b3;background:#eef3ff}.status.success{color:#17623f;background:#e3f8eb}
+.dialog .submit{width:100%}.privacy{font-size:11px;color:#8a99ac;margin-top:12px}
 .expected-result{background:#e7f7ee;border:1px solid #c2ebd2;border-radius:12px;padding:14px 16px;margin:16px 0;color:#205b41;font-size:12px;line-height:1.7}
 .expected-result strong{display:block;margin-bottom:4px;color:#12623e}
-@media(max-width:860px){.bonus-banner{display:block}.bonus-stats{margin-top:17px}.bonus-grid{grid-template-columns:1fr}}
-@media(max-width:570px){.bonus-banner{padding:24px}.bonus-card{padding:20px}}
-/* Шолу: барлық алты деңгейді бір ретпен көрсету */
-.timeline{grid-template-columns:repeat(3,minmax(0,1fr))}
-@media(max-width:860px){.timeline{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:570px){.timeline{grid-template-columns:1fr}}
-    /* Python тақырыптарын ықшам көрсету: барлық 24 тақырып пен дизайн сақталады. */
-    #program .folder-list{gap:3px}
-    #program .course-level-title{margin:17px 0 5px;padding:10px 13px}
-    #program .course-folder summary{padding:10px 14px;gap:11px;font-size:14px}
-    #program .folder-content{padding-top:10px;padding-bottom:11px}
-    @media(max-width:570px){
-      #program .course-level-title{padding:9px 10px;margin-top:14px}
-      #program .course-folder summary{padding:10px 9px;gap:8px;font-size:12px}
-    }
-  </style>
+.hiddenframe{position:absolute;width:1px;height:1px;border:0;opacity:0;pointer-events:none}
+.sr-only{position:absolute;height:1px;width:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+/* responsive */
+@media(max-width:860px){
+.navlinks{display:none;position:absolute;top:76px;left:0;right:0;background:#fff;padding:19px 26px;border-bottom:1px solid var(--line);box-shadow:0 10px 30px #152a4215;flex-direction:column;align-items:stretch}
+.navlinks.open{display:flex}.hamburger{display:block}.nav>.btn{margin-left:auto}
+.hero{padding:50px 0 80px}.hero-grid{grid-template-columns:1fr}.editor{max-width:560px}
+.grid3{grid-template-columns:1fr 1fr}.bonus-grid{grid-template-columns:1fr}.bonus-section{padding:70px 0}
+.section{padding:64px 0}.end-cta{padding:36px}.info-ribbon{grid-template-columns:1fr}.ribbon-col{border-right:0;border-bottom:1px solid #ffffff30;padding-bottom:12px}.ribbon-col:last-child{border-bottom:0;padding-bottom:4px}
+}
+@media(max-width:570px){
+.container{padding:0 17px}.topnote{font-size:10px}.nav{min-height:68px}.navlinks{top:68px}.brand{font-size:12px}.brand-logo{height:34px;width:34px;font-size:18px}.nav>.btn{display:none}
+.hero h1{font-size:40px;letter-spacing:-2.3px}.lead{font-size:15px}.code{padding:18px 14px;font-size:10.5px}.code-output{padding:11px 14px;font-size:10px}
+.grid3{grid-template-columns:1fr}.bonus-card{padding:20px}.bonus-head p{font-size:15px}.bonus-cta .btn{width:100%}
+.end-cta{display:block;padding:26px}.end-cta .btn{margin-top:22px;width:100%}.footer-grid{display:block}.footer-links{margin-top:20px}
+.dialog{padding:25px 18px}.dialog h2{font-size:23px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:span 1}
+.calendar-box .btn{width:100%}
+}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+</style>
 </head>
 <body>
-<div class="topnote">Жаңа топқа тіркелу ашық · <span>27–31 қазан 2026</span> · Орын саны шектеулі</div>
+<div class="topnote">Тіркелу ашық · <span>27–31 қазан 2026</span> · 🎁 Бонус курс бар · Орын саны шектеулі</div>
 <header class="header"><div class="container nav">
-<a aria-label="Басты бет" class="brand" href="#home"><span class="brand-logo">{ }</span><span>МЕКТЕПТЕГІ<br/>ИНФОРМАТИКА ЖӘНЕ ЖИ<small>Мұғалімдерге арналған білім беру платформасы</small></span></a>
-<nav aria-label="Негізгі мәзір" class="navlinks" id="navigation"><a href="#about">Курс туралы</a><a href="#program">Оқу бағдарламасы</a><a href="#bonus">Бонус курс</a><a href="#schedule">Өту мерзімі</a><a href="#faq">Сұрақ-жауап</a></nav>
+<a aria-label="Басты бет" class="brand" href="#home"><span class="brand-logo">{ }</span><span>МЕКТЕПТЕГІ<br/>ИНФОРМАТИКА ЖӘНЕ ЖИ</span></a>
+<nav aria-label="Негізгі мәзір" class="navlinks" id="navigation"><a href="#about">Курс туралы</a><a href="#program">Бағдарлама</a><a class="nav-bonus" href="#bonus">🎁 Бонус курс</a><a href="#faq">Сұрақ-жауап</a><a href="#schedule">Мерзімі</a></nav>
 <button class="btn btn-sm register-open" type="button">Курсқа тіркелу ↗</button><button aria-controls="navigation" aria-expanded="false" aria-label="Мәзірді ашу" class="hamburger" id="menu-toggle" type="button">☰</button>
 </div></header>
 <main>
 <section class="hero" id="home"><div class="container hero-grid"><div>
-<div class="eyebrow">Мұғалімдерге арналған тәжірибелік курс</div>
+<div class="eyebrow">Мұғалімдерге арналған курс</div>
 <h1>Python үйретіңіз.<br/><em>Болашақты</em><br/>қалыптастырыңыз.</h1>
-<p class="lead">«Мектептегі информатика және жасанды интеллект» — Python-ды оқытуға арналған мұғалімдер курсы. Сайтта 5–10-сынып оқулықтарынан іріктелген Python тақырыптары берілген.</p>
-<div class="chips"><span class="chip">🐍 Python</span><span class="chip">📘 <b>5–10-сынып</b> тақырыптары</span><span class="chip">👩‍🏫 Мұғалімдер үшін</span></div>
-<div class="cta-row"><button class="btn register-open" type="button">Курсқа қатысу →</button><a class="btn btn-outline" href="#program">Бағдарламаны қарау ↓</a></div>
-<p class="cta-foot">27–31 қазан · 14:00–17:30 · Орын саны шектеулі</p>
-</div><div aria-label="Python кодының көрнекі мысалы" class="hero-art" role="img"><div class="yellow-star">PYTHON<br/>2026<br/>★</div><div class="editor"><div class="editor-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="filename">hello_teacher.py</span></div><div class="code"><span class="purple">def</span> <span class="blue">future</span>(teacher):<br/>    skills = [<span class="green">"Python"</span>, <span class="green">"AI"</span>]<br/> <span class="purple">for</span> skill <span class="purple">in</span> skills:<br/> <span class="blue">print</span>(<span class="green">"Үйренеміз: "</span> + skill)<br/> <span class="purple">return</span> <span class="green">"Болашақ басталды!"</span><br/><br/><span class="orange"># Бірге үйренеміз 🚀</span><br/><span class="blue">print</span>(future(<span class="green">"Мұғалім"</span>))</div><div class="code-output">▶ Болашақ басталды! _</div></div><div class="float-badge"><div class="iconbox">📚</div><div><b>Python</b>Оқулықтардағы тақырыптар жинағы</div></div></div>
+<p class="lead">Информатика мұғалімдеріне арналған практикалық Python курсы: 24 тақырып, 5 күн. Қосымша — бонус курс.</p>
+<div class="cta-row"><button class="btn register-open" type="button">Курсқа тіркелу →</button><a class="btn btn-outline" href="#program">Бағдарламаны қарау ↓</a></div><a class="hero-bonus" href="#bonus"><b>Бонус</b> Веб-сайт жасау + SQL →</a>
+</div><div aria-label="Python кодының көрнекі мысалы" class="hero-art" role="img"><div class="editor"><div class="editor-top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><div class="etabs" role="tablist" aria-label="Код мысалдары"><button class="etab on" role="tab" aria-selected="true" data-t="py" type="button">Python</button><button class="etab" role="tab" aria-selected="false" data-t="html" type="button">HTML</button><button class="etab" role="tab" aria-selected="false" data-t="css" type="button">CSS</button></div></div>
+<div class="pane on" data-p="py"><pre class="code"><code>x = <span class="orange">0</span>
+<span class="purple">while</span> x &gt;= <span class="orange">0</span>:
+    <span class="blue">print</span>(x)
+    x = x - <span class="orange">2</span>
+<span class="purple">else</span>:
+    <span class="blue">print</span>(<span class="green">"salem alem"</span>)</code></pre><div class="code-output">0
+salem alem</div></div>
+<div class="pane" data-p="html"><pre class="code"><code><span class="purple">&lt;h1&gt;</span>Менің алғашқы сайтым<span class="purple">&lt;/h1&gt;</span>
+<span class="purple">&lt;p&gt;</span>Мен Python үйреніп жатырмын.<span class="purple">&lt;/p&gt;</span>
+<span class="purple">&lt;a</span> <span class="orange">href</span>=<span class="green">"#program"</span><span class="purple">&gt;</span>Бағдарлама<span class="purple">&lt;/a&gt;</span></code></pre><div class="pv pv-html"><small>Браузерде:</small><h4>Менің алғашқы сайтым</h4><p>Мен Python үйреніп жатырмын.</p><a href="#program">Бағдарлама</a></div></div>
+<div class="pane" data-p="css"><pre class="code"><code><span class="blue">h1</span> {
+    <span class="orange">color</span>: <span class="green">royalblue</span>;
+    <span class="orange">font-size</span>: <span class="green">28px</span>;
+}
+<span class="blue">p</span> {
+    <span class="orange">color</span>: <span class="green">gray</span>;
+}</code></pre><div class="pv pv-css"><small>Браузерде:</small><h4>Менің алғашқы сайтым</h4><p>Мен Python үйреніп жатырмын.</p><a href="#program">Бағдарлама</a></div></div></div></div>
 </div></section>
-<div class="container"><div aria-label="Курс туралы негізгі ақпарат" class="info-ribbon"><div class="ribbon-col"><span>📅 Курстың мерзімі</span><strong>27–31.10.2026</strong></div><div class="ribbon-col"><span>🕑 Күн сайын</span><strong>14:00–17:30</strong></div><div class="ribbon-col"><span>👥 Кімдерге</span><strong>Информатика мұғалімдеріне</strong></div><div class="ribbon-col"><span>⚡ Қатысу</span><strong class="yellow">Орын саны шектеулі</strong></div></div></div>
-<section class="section" id="about"><div class="container"><div class="section-title"><div class="eyebrow">Неге осы курс?</div><h2>Теорияны сабаққа айналдыратын практикалық бағдарлама</h2><p>Python орнатудан бастап алгоритмдер, шарттар, циклдер, функциялар, массивтер, сұрыптау және файлдармен жұмысқа дейінгі курстың тақырыптары бір жерде жинақталған.</p></div><div class="grid3"><article class="feature"><div class="feature-icon">🧠</div><h3>Алгоритмдік ойлау</h3><p>Айнымалы, шарт, цикл және функцияларды жүйелі түрде түсіндіруге арналған тақырыптар.</p></article><article class="feature"><div class="feature-icon">💻</div><h3>Практикаға бағытталған</h3><p>Жолдар, массивтер, файлдар және сұрыптау алгоритмдері бойынша тақырыптар.</p></article><article class="feature"><div class="feature-icon">🚀</div><h3>Нәтиже — практикалық дағды</h3><p>Сызықтық, тармақталған және циклдік алгоритмдер бойынша практикалық бөлімдер.</p></article></div></div></section>
-<section class="section light"><div class="container"><div class="course-highlight"><div class="highlight-main"><div class="eyebrow">Оқу материалы</div><h3>«Python бағдарламалау тілі»<br/>таңдау курсы</h3><p>5–10-сынып оқушыларына арналған Python курсының тақырыптары. Мұғалім оларды өз сабағына лайықтап қолдана алады.</p><ul class="checklist"><li>Python орнату, кіріспе және сызықтық алгоритмдер</li><li>Шарттар, For және while циклдері, функция және рекурсия</li><li>Массивтер, сұрыптау, файлдар және практикалық тапсырмалар</li></ul><a class="btn btn-dark" href="#program">Тақырыптарды қарау →</a></div><div class="highlight-side"><div class="python-bubble"><span>🐍</span></div></div></div></div></section>
-<section class="section" id="program"><div class="container">
-<div class="section-heading-row"><div class="section-title"><div class="eyebrow">Python курсы</div><h2>Python курсының тақырыптары</h2><p>24 тақырып · 6 деңгей. Тақырыпты таңдап немесе іздеп көріңіз.</p></div><button class="btn btn-outline btn-sm" id="download-plan" type="button">↓ Тақырыптар тізімін CSV жүктеу</button></div>
-<div class="program-tools"><input aria-label="Python тақырыптарын іздеу" class="search" id="lesson-search" placeholder="🔍  Тақырыпты іздеу..." type="search"/><button class="tab" id="clear-search" type="button">Іздеуді тазалау</button></div>
-<div aria-live="polite" class="folder-list" id="program-list"></div>
-<div class="program-foot">Тақырыптар ұсынылған ретпен берілген. Оқу материалдары әзірге жүктелмеген.</div>
+
+<div class="container"><div aria-label="Курс туралы негізгі ақпарат" class="info-ribbon"><div class="ribbon-col"><span>📅 Мерзімі</span><strong>27–31 қазан 2026</strong></div><div class="ribbon-col"><span>🕑 Күн сайын</span><strong>14:00–17:30</strong></div><div class="ribbon-col"><span>⚡ Қатысу</span><strong class="yellow">Орын саны шектеулі</strong></div></div></div>
+
+<section class="section" id="about"><div class="container"><div class="section-title"><div class="eyebrow">Курс туралы</div><h2>Python-ды сабақта сенімді оқытуға арналған курс</h2><p>Мектептегі информатика мұғалімдеріне арналған 5 күндік практикалық курс.</p></div>
+<div class="grid3"><article class="feature"><div class="feature-icon">👩‍🏫</div><h3>Кімдерге арналған</h3><p>Мектептегі информатика мұғалімдеріне. Бағдарлама Python орнатудан басталады.</p></article><article class="feature"><div class="feature-icon">💻</div><h3>Не үйренесіз</h3><p>Алгоритм, шарт, цикл, функция, массив және файлмен жұмыс: барлығы 24 тақырып.</p></article><article class="feature"><div class="feature-icon">🎁</div><h3>Бонус курс</h3><p>Python-ға қосымша: өз веб-сайтыңызды жасап жариялау және SQL негіздері.</p></article></div></div></section>
+
+<section class="section light" id="program"><div class="container"><div class="section-title"><div class="eyebrow">Python курсы</div><h2>Бағдарлама: 6 бөлім, 24 тақырып</h2></div>
+<div class="grid3">
+<article class="level-card"><div class="level-no">01</div><h3>Python негіздері</h3><div class="count">5 тақырып</div><ul><li>Python орнату</li><li>Python-ға кіріспе</li><li>Сызықтық алгоритмдер</li><li>Алгоритмнің трассировкасы</li><li>Сызықтық алгоритмдер (практика)</li></ul></article>
+<article class="level-card"><div class="level-no">02</div><h3>Тармақталған алгоритмдер</h3><div class="count">4 тақырып</div><ul><li>Тармақталған алгоритмдер</li><li>Тармақталған алгоритмдер (практика)</li><li>Күрделі шарттар</li><li>Кірістірілген шарттар</li></ul></article>
+<article class="level-card"><div class="level-no">03</div><h3>Циклдік алгоритмдер</h3><div class="count">5 тақырып</div><ul><li>For циклі</li><li>While циклі</li><li>Циклді басқару (break, continue, else)</li><li>Кірістірілген циклдер</li><li>Циклдік алгоритмдер (практика)</li></ul></article>
+<article class="level-card"><div class="level-no">04</div><h3>Жолдар және функциялар</h3><div class="count">4 тақырып</div><ul><li>Жолдармен жұмыс</li><li>Процедура</li><li>Функция</li><li>Рекурсия</li></ul></article>
+<article class="level-card"><div class="level-no">05</div><h3>Массивтер және сұрыптау</h3><div class="count">4 тақырып</div><ul><li>Бірөлшемді массив</li><li>Бірөлшемді массив (практика)</li><li>Екіөлшемді массив</li><li>Сұрыптау алгоритмдері</li></ul></article>
+<article class="level-card"><div class="level-no">06</div><h3>Файлдармен жұмыс</h3><div class="count">2 тақырып</div><ul><li>Файлдармен жұмыс — теория</li><li>Файлдық функциялармен жұмыс — практика</li></ul></article>
+</div></div></section>
+
+<section class="bonus-section" id="bonus"><div class="container">
+<div class="bonus-head"><span class="bonus-badge">🎁 Бонус курс · Python курсымен бірге</span></div>
+<div class="bonus-path"><span>HTML</span><i>→</i><span>CSS</span><i>→</i><span>JavaScript</span><i>→</i><span>GitHub Pages</span><i>→</i><span>SQL</span></div>
+<div class="bonus-grid">
+<article class="bonus-card"><div class="bonus-top"><div class="bonus-icon">🌐</div><div><div class="bonus-no">1-бөлім · 7 тақырып</div><h3>HTML — сайттың құрылымы</h3></div></div><p>Веб-сайт қалай жұмыс істейтінін түсініп, алғашқы бетті құрасыз.</p><div class="bonus-result"><b>Нәтиже:</b> мәтіні, суреті, сілтемесі және кестесі бар веб-бет.</div><details><summary>Тақырыптарды көру</summary><ol start="1"><li>Web-программалау. Web-сайт туралы түсінік</li><li>HTML тіліне кіріспе. HTML құжатының құрылымы</li><li>HTML-де қаріптің өлшемін, түсін және түрін белгілеу</li><li>HTML тілінде сілтемелер құру</li><li>HTML құжатына графикалық кескіндерді енгізу</li><li>HTML тілінде кесте құру</li><li>HTML тілінде практикалық жұмыс — алғашқы веб-бет</li></ol></details></article>
+<article class="bonus-card"><div class="bonus-top"><div class="bonus-icon">🎨</div><div><div class="bonus-no">2-бөлім · 5 тақырып</div><h3>CSS және JavaScript</h3></div></div><p>Сайтты әдемі безендіріп, оған қарапайым әрекеттер қосасыз.</p><div class="bonus-result"><b>Нәтиже:</b> дизайны бар, JavaScript-пен жұмыс істейтін бет.</div><details><summary>Тақырыптарды көру</summary><ol start="8"><li>Каскадтық стильдер кестесі — CSS</li><li>CSS селекторларының түрлері</li><li>Идентификаторлы және контекстік селекторлар</li><li>Практикалық жұмыс: веб-сайттың дизайнын жасау</li><li>JavaScript тіліне кіріспе. Скрипттерді қолдану</li></ol></details></article>
+<article class="bonus-card"><div class="bonus-top"><div class="bonus-icon">🚀</div><div><div class="bonus-no">3-бөлім · 4 тақырып</div><h3>Сайтты жариялау</h3></div></div><p>Толық сайт жасап, GitHub Pages арқылы интернетке шығарасыз.</p><div class="bonus-result"><b>Нәтиже:</b> интернетте жарияланған сайт және тексерілетін тіркелу формасы.</div><details><summary>Тақырыптарды көру</summary><ol start="13"><li>HTML, CSS және JavaScript көмегімен толық сайт жасау</li><li>GitHub және GitHub Pages арқылы сайтты жариялау</li><li>Сайтты тестілеу және қателерді түзету</li><li>HTML арқылы тіркелу формасын құру және JavaScript көмегімен тексеру</li></ol></details></article>
+<article class="bonus-card"><div class="bonus-top"><div class="bonus-icon">🗄️</div><div><div class="bonus-no">4-бөлім · 7 тақырып</div><h3>SQL — деректер қоры</h3></div></div><p>Деректер қорынан керек ақпаратты табуды үйренесіз.</p><div class="bonus-result"><b>Нәтиже:</b> ақпаратты таңдау, сүзу, сұрыптау және кестелерді біріктіру.</div><details><summary>Тақырыптарды көру</summary><ol start="17"><li>SQL сұраныстарына кіріспе</li><li>SELECT және FROM</li><li>WHERE және ORDER BY</li><li>UPDATE және SET</li><li>LIKE операторы</li><li>JOIN командасы</li><li>Практикалық жұмыс: SQL сұраныстарын орындау</li></ol></details></article>
+</div>
 </div></section>
-<section class="section light"><div class="container"><div class="section-title"><div class="eyebrow">Тақырыптық бағыттар</div><h2>Python курсы: алты оқу деңгейі</h2><p>6 деңгей · 24 тақырып. Негіздерден практикаға дейін.</p></div><div class="timeline"><article class="timeline-card"><div class="quarter-num">01</div><h3>Python негіздері</h3><p>Орнату, кіріспе, алгоритмдер, практика.</p><span class="hours-pill">5 тақырып</span></article><article class="timeline-card"><div class="quarter-num">02</div><h3>Тармақталған алгоритмдер</h3><p>Тармақталу, күрделі шарттар, практика.</p><span class="hours-pill">4 тақырып</span></article><article class="timeline-card"><div class="quarter-num">03</div><h3>Циклдік алгоритмдер</h3><p>For, while, циклді басқару, практика.</p><span class="hours-pill">5 тақырып</span></article><article class="timeline-card"><div class="quarter-num">04</div><h3>Жолдар, процедуралар және функциялар</h3><p>Жолдар, процедуралар, функциялар, рекурсия.</p><span class="hours-pill">4 тақырып</span></article><article class="timeline-card"><div class="quarter-num">05</div><h3>Массивтер және сұрыптау</h3><p>Массивтер, сұрыптау және практика.</p><span class="hours-pill">4 тақырып</span></article><article class="timeline-card"><div class="quarter-num">06</div><h3>Файлдармен жұмыс</h3><p>Файлдар, функциялар және практика.</p><span class="hours-pill">2 тақырып</span></article></div></div></section><section class="section light" id="bonus"><div class="container"><div class="bonus-banner"><div><span class="bonus-badge">🎁 Python курсына бонус</span><h2>Өз сайтыңды өз қолыңмен жаса!</h2><p>HTML, CSS және JavaScript арқылы сайт құрып, GitHub Pages көмегімен интернетке жариялауды үйрен. SQL арқылы деректер қорымен жұмыс істеудің негіздерін меңгер.</p></div><div class="bonus-stats">4 деңгей · 23 тақырып</div></div><div class="section-title"><div class="eyebrow">Бонус курс: Web Development + SQL</div><h2>Идеядан дайын веб-сайтқа дейін</h2><p>Веб-беттің құрылымынан бастап дизайн, қарапайым интерактивтілік, жариялау және деректер қорымен жұмыс істеуге дейінгі оқу жолы.</p></div><div class="bonus-grid"><article class="bonus-card"><div class="bonus-level">1-деңгей · 7 тақырып</div><h3>HTML — сайттың құрылымы</h3><p class="bonus-description">Бастапқы деңгей</p><ol start="1"><li>Web-программалау. Web-сайт туралы түсінік</li><li>HTML тіліне кіріспе. HTML құжатының құрылымы</li><li>HTML-де қаріптің өлшемін, түсін және түрін белгілеу</li><li>HTML тілінде сілтемелер құру</li><li>HTML құжатына графикалық кескіндерді енгізу</li><li>HTML тілінде кесте құру</li><li>HTML тілінде практикалық жұмыс — алғашқы веб-бет</li></ol><div class="bonus-result"><strong>Нәтиже:</strong> Мәтіні, суреті, сілтемесі және кестесі бар алғашқы HTML веб-бетін жасайсыз.</div></article><article class="bonus-card"><div class="bonus-level">2-деңгей · 5 тақырып</div><h3>CSS және JavaScript-ке кіріспе</h3><p class="bonus-description">Бастапқы → орта деңгей</p><ol start="8"><li>Каскадтық стильдер кестесі — CSS</li><li>CSS селекторларының түрлері</li><li>Идентификаторлы және контекстік селекторлар</li><li>Практикалық жұмыс: веб-сайттың дизайнын жасау</li><li>JavaScript тіліне кіріспе. Скрипттерді қолдану</li></ol><div class="bonus-result"><strong>Нәтиже:</strong> Веб-бетті безендіріп, JavaScript арқылы қарапайым әрекеттер қосасыз.</div></article><article class="bonus-card"><div class="bonus-level">3-деңгей · 4 тақырып</div><h3>Практикалық Web-жобалау</h3><p class="bonus-description">Орта деңгей</p><ol start="13"><li>HTML, CSS және JavaScript көмегімен толық сайт жасау</li><li>GitHub және GitHub Pages арқылы сайтты жариялау</li><li>Сайтты тестілеу және қателерді түзету</li><li>HTML арқылы тіркелу формасын құру және JavaScript көмегімен тексеру</li></ol><div class="bonus-result"><strong>Нәтиже:</strong> Сайтыңызды интернетке жариялап, браузерде тексерілетін тіркелу формасын жасайсыз.</div></article><article class="bonus-card"><div class="bonus-level">4-деңгей · 7 тақырып</div><h3>SQL — деректер қорымен жұмыс</h3><p class="bonus-description">Кеңейтілген бонус</p><ol start="17"><li>SQL сұраныстарына кіріспе</li><li>SELECT және FROM</li><li>WHERE және ORDER BY</li><li>UPDATE және SET</li><li>LIKE операторы</li><li>JOIN командасы</li><li>Практикалық жұмыс: SQL сұраныстарын орындау</li></ol><div class="bonus-result"><strong>Нәтиже:</strong> Оқу деректер қорында ақпаратты таңдап, сүзуді, сұрыптауды және кестелерді біріктіруді үйренесіз.</div></article></div></div></section>
-<section class="calendar-section" id="schedule"><div class="container"><div class="section-title"><div class="eyebrow">2026 жылғы қазан</div><h2>Күнтізбеңізге белгілеп қойыңыз</h2><p>Мұғалімдер курсының өтетін мерзімі мен уақыты. Қатысуға алдын ала өтінім қалдырыңыз.</p></div><div class="calendar-grid"><div class="date-card"><div class="eyebrow">Курстың өтетін күндері</div><div class="date-display"><div class="date-number">27–31</div><div class="date-month">ҚАЗАН<small>2026 жыл · 5 күн</small></div></div><div class="time-panel"><div class="clock">◷</div><div><strong>14:00 – 17:30</strong><span>Күн сайын · Алматы уақыты (UTC+5)</span></div></div><div class="limit">⚡ Орын саны шектеулі — алдын ала тіркеліңіз</div></div><div class="date-explainer"><h3>Қатысуға дайынсыз ба?</h3><p>Өтінім формасын толтырыңыз. Байланыс деректеріңіз ұйымдастырушыға жіберіледі; курс форматы, өтетін орны және қатысу тәртібі туралы ақпарат курс басталар алдында электрондық поштаңызға жіберіледі.</p><div class="facts"><div class="fact"><span>✓</span> Мұғалімдерге арналған</div><div class="fact"><span>✓</span> Python тақырыптары және практикалық бөлімдер</div><div class="fact"><span>✓</span> Күн сайын 14:00–17:30</div></div><button class="btn register-open" type="button">Қазір тіркелу →</button></div></div></div></section>
-<section class="section" id="faq"><div class="container faq-grid"><div class="section-title"><div class="eyebrow">Жиі қойылатын сұрақтар</div><h2>Сұрағыңыз бар ма?</h2><p>Тіркелу алдында қажетті ақпаратпен танысыңыз.</p></div><div><details class="faq-item"><summary>Курс кімдерге арналған?</summary><p>Python тілін мектепте оқытуға қызығатын информатика мұғалімдеріне арналған. Сайттағы 24 тақырып 6 деңгейге реттелген оқу бағдарламасын құрайды.</p></details><details class="faq-item"><summary>Курс қашан өтеді?</summary><p>27–31 қазан 2026 жылы, күн сайын 14:00–17:30 аралығында (Алматы уақыты). Курстың күндері мен оқулықтағы тақырыптардың оқу реті — бөлек мәліметтер.</p></details><details class="faq-item"><summary>Python тақырыптарының тізімін жүктей аламын ба?</summary><p>Иә. «Python курсы» бөліміндегі CSV жүктеу батырмасы арқылы бумалар атауларының тізімін ала аласыз. Файлды Excel немесе басқа кестелік редактор арқылы ашуға болады.</p></details><details class="faq-item"><summary>Курс онлайн ба, әлде офлайн ба?</summary><p>Өту форматы мен мекенжайы әлі көрсетілмеген. Оны ұйымдастырушы тіркелген мұғалімдерге хабарлауы қажет.</p></details><details class="faq-item"><summary>Бонус курста не үйренемін?</summary><p>HTML, CSS және JavaScript арқылы сайт жасауды және оны GitHub Pages көмегімен интернетке жариялауды үйренесіз. SQL тақырыптары деректер қорымен танысуға арналған бөлек оқу деңгейінде берілген.</p></details><details class="faq-item"><summary>Тіркелу қалай жұмыс істейді?</summary><p>Өтінім тіркелу нысаны арқылы ұйымдастырушыға жіберіледі. Өтінім қабылданған соң экранда растау көрсетіледі. Курс басталар алдында Азамат ағай қатысу туралы ақпаратты электрондық поштаңызға жолдайды.</p></details></div></div></section>
-<section class="section" id="registration"><div class="container"><div class="end-cta"><div><div class="eyebrow">Орын саны шектеулі</div><h2>Python курсына қатысуға өтінім қалдырыңыз</h2><p>27–31 қазан 2026 · 14:00–17:30 · Мұғалімдерге арналған</p></div><button class="btn btn-dark register-open" type="button">Курсқа тіркелу ↗</button></div></div></section>
-</main><footer class="footer"><div class="container"><div class="footer-grid"><div class="brand"><span class="brand-logo">{ }</span><span>МЕКТЕПТЕГІ<br/>ИНФОРМАТИКА ЖӘНЕ ЖИ<small>Мұғалімдерге арналған Python курсы</small></span></div><div class="footer-links"><a href="#about">Курс туралы</a><a href="#program">Бағдарлама</a><a href="#bonus">Бонус курс</a><a href="#schedule">Күнтізбе</a></div></div><div class="footer-bottom">© 2026 · Ақпараттық курс сайты. Курстың форматы, орны және қатысуды растау тәртібі ұйымдастырушымен нақтыланады.</div></div></footer>
-<div aria-hidden="true" aria-labelledby="modal-title" aria-modal="true" class="modal" id="register-modal" role="dialog"><div class="dialog"><button aria-label="Жабу" class="close" id="modal-close" type="button">×</button><div class="eyebrow">Мұғалімдерді тіркеу</div><h2 id="modal-title">Python курсына өтінім</h2><p>Төмендегі мәліметтерді толтырыңыз. Жұлдызшамен белгіленген өрістер міндетті. Курс басталар алдында қатысу туралы толық ақпарат электрондық поштаңызға жіберіледі.</p><div class="form-meta">📅 27–31.10.2026  ·  🕑 14:00–17:30  ·  ⚡ Орын саны шектеулі</div>
+
+<section class="section" id="faq"><div class="container faq-wrap"><div class="section-title"><div class="eyebrow">Сұрақ-жауап</div><h2>Жиі қойылатын сұрақтар</h2></div>
+<details class="faq-item"><summary>Курс кімдерге арналған?</summary><p>Python тілін мектепте оқытуға қызығатын информатика мұғалімдеріне.</p></details>
+<details class="faq-item"><summary>Бонус курста не бар?</summary><p>Веб-сайт жасау (HTML, CSS, JavaScript), оны GitHub Pages арқылы жариялау және SQL негіздері: 4 бөлім, 23 тақырып. Бонус курс Python курсымен бірге жүреді, бөлек тіркелу қажет емес.</p></details>
+<details class="faq-item"><summary>Курс қашан өтеді?</summary><p>27–31 қазан 2026, күн сайын 14:00–17:30 (Алматы уақыты).</p></details>
+<details class="faq-item"><summary>Курс онлайн ба, әлде офлайн ба?</summary><p>Формат пен мекенжай әлі көрсетілмеген. Ұйымдастырушы тіркелген мұғалімдерге хабарлайды.</p></details>
+<details class="faq-item"><summary>Тіркелу қалай жұмыс істейді?</summary><p>Форманы толтырасыз — өтінім ұйымдастырушыға жіберіледі. Курс басталар алдында Азамат ағай қатысу туралы ақпаратты электрондық поштаңызға жолдайды.</p></details>
+</div></section>
+
+<section class="calendar-section" id="schedule"><div class="container calendar-box"><div><div class="eyebrow">Өту мерзімі</div><div class="date-number">27–31</div><div class="date-sub">Қазан 2026 · күн сайын 14:00–17:30<span>Алматы уақыты (UTC+5)</span></div></div><button class="btn btn-yellow register-open" type="button">Орын қалдыру →</button></div></section>
+
+</main>
+<footer class="footer"><div class="container"><div class="footer-grid"><div class="brand"><span class="brand-logo">{ }</span><span>МЕКТЕПТЕГІ<br/>ИНФОРМАТИКА ЖӘНЕ ЖИ</span></div><div class="footer-links"><a href="#about">Курс туралы</a><a href="#program">Бағдарлама</a><a href="#bonus">Бонус курс</a><a href="#schedule">Мерзімі</a></div></div><div class="footer-bottom">© 2026 · Курстың форматы, орны және қатысуды растау тәртібі ұйымдастырушымен нақтыланады.</div></div></footer>
+
+<div aria-hidden="true" aria-labelledby="modal-title" aria-modal="true" class="modal" id="register-modal" role="dialog"><div class="dialog"><button aria-label="Жабу" class="close" id="modal-close" type="button">×</button><div class="eyebrow">Мұғалімдерді тіркеу</div><h2 id="modal-title">Python курсына өтінім</h2><p>Төмендегі мәліметтерді толтырыңыз. Жұлдызшамен белгіленген өрістер міндетті. Курс басталар алдында қатысу туралы толық ақпарат электрондық поштаңызға жіберіледі.</p><div class="form-meta">📅 27–31.10.2026  ·  🕑 14:00–17:30  ·  ⚡ Орын саны шектеулі</div>
 <form autocomplete="on" id="register-form" novalidate=""><div class="form-grid"><div class="field full"><label for="fullName">Аты-жөніңіз *</label><input autocomplete="name" id="fullName" maxlength="100" name="fullName" placeholder="Мысалы: Айдана Төлегенқызы" required=""/></div><div class="field"><label for="email">Электрондық пошта *</label><input autocomplete="email" id="email" maxlength="160" name="email" placeholder="name@example.kz" required="" type="email"/></div><div class="field"><label for="phone">Телефон *</label><input autocomplete="tel" id="phone" maxlength="25" name="phone" placeholder="+7 777 123 45 67" required="" type="tel"/></div><div class="field full"><label for="school">Мектеп / ұйым *</label><input id="school" maxlength="160" name="school" placeholder="Мектебіңіздің атауы" required=""/></div></div><div class="expected-result"><strong>🎯 Курстан күтілетін нәтиже</strong>Python тақырыптарын оқытуға арналған материалдарды пайдаланып, сабаққа практикалық тапсырмалар дайындауды үйренесіз. Бонус бөлімінде өз веб-сайтыңызды құрып, оны интернетке жариялау жолымен танысасыз.</div><div aria-hidden="true" class="sr-only"><label for="website">Сайт</label><input autocomplete="off" id="website" name="website" tabindex="-1"/></div><label class="consent"><input id="consent" name="consent" required="" type="checkbox" value="yes"/><span>Тіркелу үшін жеке деректерімді өңдеуге және сақтауға келісемін. *</span></label><button class="btn submit" id="submit-btn" type="submit">Өтінімді жіберу →</button><div aria-live="polite" class="status" id="form-status" role="status"></div><div class="privacy">Құпиясөз немесе ЖСН сұралмайды. Өтініміңіз қабылданғаннан кейін курс басталар алдында Азамат ағай қатысу туралы толық ақпаратты электрондық поштаңызға жібереді.</div></form>
 </div></div><iframe aria-hidden="true" class="hiddenframe" id="submit-target" name="submit-target" title="Тіркелу нәтижесі"></iframe>
 <script>
     'use strict';
-    // GitHub-та жарияламас бұрын Google Apps Script веб-қосымшасының /exec URL-ін енгізіңіз.
-    // Мысал: https://script.google.com/macros/s/AKfycb.../exec
     const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzYkWsGnpcHPEjUq06ZfN-0oIAKyOfa7ibAhNwfrHpiYAP3ddXMT62LteblYOHA5u-KyA/exec';
     const COURSE_ID = 'python-teachers-2026-10';
-    // Бекітілген 24 тақырыптың реті: алты деңгей, қарапайымнан күрделіге қарай.
-    // Массивтердегі рет — сайттағы және CSV-дегі бекітілген көрсету реті; sort() қолданылмайды.
-    const COURSE_LEVELS = [
-      {title:'1-деңгей · Python негіздері',topics:[
-        'Python орнату',
-        'Python-ға кіріспе',
-        'Сызықтық алгоритмдер',
-        'Алгоритмнің трассировкасы',
-        'Сызықтық алгоритмдер (практика)'
-      ]},
-      {title:'2-деңгей · Тармақталған алгоритмдер',topics:[
-        'Тармақталған алгоритмдер',
-        'Тармақталған алгоритмдер (практика)',
-        'Күрделі шарттар',
-        'Кірістірілген шарттар'
-      ]},
-      {title:'3-деңгей · Циклдік алгоритмдер',topics:[
-        'For циклі',
-        'While циклі',
-        'Циклді басқару нұсқаулары (break, continue, else)',
-        'Кірістірілген циклдер',
-        'Циклдік алгоритмдер (практика)'
-      ]},
-      {title:'4-деңгей · Жолдар, процедуралар және функциялар',topics:[
-        'Жолдармен жұмыс',
-        'Процедура',
-        'Функция',
-        'Рекурсия'
-      ]},
-      {title:'5-деңгей · Массивтер және сұрыптау',topics:[
-        'Бірөлшемді массив',
-        'Бірөлшемді массив (практика)',
-        'Екіөлшемді массив',
-        'Сұрыптау алгоритмдері'
-      ]},
-      {title:'6-деңгей · Файлдармен жұмыс',topics:[
-        'Файлдармен жұмыс — теория',
-        'Файлдық функциялармен жұмыс — практика'
-      ]}
-    ];
-    const lessonList = document.getElementById('program-list');
-    const searchInput = document.getElementById('lesson-search');
-    const esc = text => String(text).replace(/[&<>"']/g, ch => ({'&':'&','<':'<','>':'>','"':'"',"'":'&#39;'}[ch]));
-    function renderFolders() {
-      const query = searchInput.value.trim().toLocaleLowerCase('kk-KZ');
-      const parts = [];
-      COURSE_LEVELS.forEach(level => {
-        const levelMatch = level.title.toLocaleLowerCase('kk-KZ').includes(query);
-        const topics = level.topics.filter(name => levelMatch || name.toLocaleLowerCase('kk-KZ').includes(query));
-        if (!topics.length) return;
-        parts.push(`<h3 class="course-level-title"><span>${esc(level.title)}</span><small>${topics.length} тақырып</small></h3>`);
-        parts.push(...topics.map(name =>
-          `<details class="course-folder"><summary><span class="folder-arrow" aria-hidden="true">›</span><span class="folder-icon" aria-hidden="true"></span><span class="folder-name">${esc(name)}</span></summary><div class="folder-content">Бұл тақырыптың оқу материалдары әзірге сайтқа жүктелмеген.</div></details>`
-        ));
-      });
-      lessonList.innerHTML = parts.length
-        ? parts.join('')
-        : '<div class="empty-state">Сәйкес тақырып табылмады.</div>';
-    }
-    searchInput.addEventListener('input', renderFolders);
-    document.getElementById('clear-search').addEventListener('click', () => {
-      searchInput.value = '';
-      renderFolders();
-      searchInput.focus();
-    });
-    renderFolders();
-    document.getElementById('download-plan').addEventListener('click', () => {
-      let order = 0;
-      const rows = [['Деңгей', 'Реттік №', 'Тақырып']];
-      COURSE_LEVELS.forEach(level => level.topics.forEach(name => rows.push([level.title, ++order, name])));
-      const csv = '\ufeff' + rows.map(row => row.map(v => '"' + String(v).replace(/"/g, '""') + '"').join(';')).join('\r\n');
-      const url = URL.createObjectURL(new Blob([csv], {type:'text/csv;charset=utf-8;'}));
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'Python_kursy_dengeiler_24_takyryp.csv';
-      a.click();
-      setTimeout(() => URL.revokeObjectURL(url), 1000);
-    });
     const nav=document.getElementById('navigation');const menuToggle=document.getElementById('menu-toggle');menuToggle.addEventListener('click',()=>{const opened=nav.classList.toggle('open');menuToggle.setAttribute('aria-expanded',String(opened));menuToggle.textContent=opened?'×':'☰'});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menuToggle.setAttribute('aria-expanded','false');menuToggle.textContent='☰'}));
     const modal=document.getElementById('register-modal');const closeBtn=document.getElementById('modal-close');const form=document.getElementById('register-form');const status=document.getElementById('form-status');const submitBtn=document.getElementById('submit-btn');let opener=null;
     function openModal(e){opener=e?.currentTarget||document.activeElement;if(!pendingId){status.className='status';status.textContent=''}modal.classList.add('is-open');modal.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';document.getElementById('fullName').focus()}
@@ -187,8 +247,6 @@
     document.querySelectorAll('.register-open').forEach(b=>b.addEventListener('click',openModal));closeBtn.addEventListener('click',closeModal);modal.addEventListener('click',e=>{if(e.target===modal)closeModal()});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&modal.classList.contains('is-open'))closeModal();if(e.key==='Tab'&&modal.classList.contains('is-open')){const elements=[...modal.querySelectorAll('button:not(:disabled),input:not(:disabled),select:not(:disabled)')].filter(el=>el.offsetParent!==null&&el.tabIndex>=0);if(e.shiftKey&&document.activeElement===elements[0]){elements.at(-1).focus();e.preventDefault()}else if(!e.shiftKey&&document.activeElement===elements.at(-1)){elements[0].focus();e.preventDefault()}}});
     function showStatus(type,message){status.className='status show '+type;status.textContent=message}
     const target=document.getElementById('submit-target');let pendingId=null;
-    // Сервер doPost функциясы iframe ішінде top.postMessage арқылы нәтижені хабарлайды.
-    // Нәтиже келмесе, сәтті тіркелді деп көрсетпейміз.
     window.addEventListener('message',event=>{
       if(!pendingId||!event.data||event.data.source!=='python-course-registration'||event.data.requestId!==pendingId)return;
       if(!/^https:\/\/([a-z0-9-]+\.)*googleusercontent\.com$/.test(event.origin)&&!/^https:\/\/script\.google\.com$/.test(event.origin))return;
@@ -208,9 +266,14 @@
       hidden.forEach(([name,value])=>{let input=form.querySelector('input[name="'+name+'"]');if(!input){input=document.createElement('input');input.type='hidden';input.name=name;form.append(input)}input.value=value});
       form.action=APPS_SCRIPT_URL;form.method='POST';form.target='submit-target';submitBtn.disabled=true;submitBtn.textContent='Жіберілуде…';showStatus('info','Өтінім жіберілуде. Растауды күтіңіз.');
       HTMLFormElement.prototype.submit.call(form);
-      // Желілік қате болса, растау келгенше сәтті тіркелді деген хабарлама шықпайды.
       setTimeout(()=>{if(pendingId===id){pendingId=null;submitBtn.disabled=false;submitBtn.textContent='Өтінімді жіберу →';showStatus('error','Серверден растау алынбады. Қайта жібермей тұрып Азамат ағайдан өтінімнің қабылданғанын нақтылаңыз.')}},18000);
     });
   </script>
+<script>
+(function(){var tabs=document.querySelectorAll('.etab'),panes=document.querySelectorAll('.pane');
+tabs.forEach(function(t){t.addEventListener('click',function(){var k=t.getAttribute('data-t');
+tabs.forEach(function(x){var on=x===t;x.classList.toggle('on',on);x.setAttribute('aria-selected',String(on))});
+panes.forEach(function(p){p.classList.toggle('on',p.getAttribute('data-p')===k)})})})})();
+</script>
 </body>
 </html>
